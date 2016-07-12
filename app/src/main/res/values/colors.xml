@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorAccent">#212121</color>
+    <color name="colorBg">#303030</color>
+
+    <!-- TEXT -->
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorTextSecondary">#b2ffffff</color>
+    <color name="colorTextDisabled">#80ffffff</color>
+
+    <!-- PAN -->
+    <color name="colorPanBg">#424242</color>
+    <color name="editTextBg">#80616161</color>
+
+    <!-- TITLE -->
+    <color name="colorTitleText">#ffffff</color>
+    <color name="colorTitleBgTop">#388E3C</color>
+    <color name="colorTitleBgBottom">#2E7D32</color>
+
+    <!-- BUTTONS -->
+    <color name="colorButtonBgTop">#2E7D32</color>
+    <color name="colorButtonBgBottom">#1B5E20</color>
+    <color name="colorButtonBgTopRed">#C62828</color>
+    <color name="colorButtonBgBottomRed">#B71C1C</color>
+    <color name="colorButtonBgTopDisabled">#A1887F</color>
+    <color name="colorButtonBgBottomDisabled">#BCAAA4</color>
+    <color name="colorListItemBottomSpan">#80616161</color>
+
+    <!-- LABELS -->
+    <color name="colorTextSuccess">#b2ffffff</color>
+    <color name="colorTextError">#B71C1C</color>
+
+</resources>

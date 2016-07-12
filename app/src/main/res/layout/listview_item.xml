@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPanBg">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/listItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonFixedHeight"
+            android:layout_marginTop="@dimen/listItemProductNameMarginTop"
+            android:layout_marginLeft="@dimen/listItemProductNameMarginLeft"
+            android:padding="@dimen/listItemBottomSpanTextPadding"
+            android:gravity="center"
+            android:onClick="openDetails"
+            android:textColor="@color/colorTextSecondary"
+            android:background="@color/colorPanBg"
+            android:textSize="@dimen/normalTextSize"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/listItemBottomSpanLayoutPadding"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/listItemQuantityView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/listItemProductNameMarginTop"
+                android:layout_marginLeft="@dimen/listItemProductNameMarginLeft"
+                android:layout_marginStart="@dimen/listItemProductNameMarginLeft"
+                android:padding="@dimen/listItemBottomSpanTextPadding"
+                android:gravity="center"
+                android:text="@string/quantity"
+                android:textColor="@color/colorTextDisabled"
+                android:background="@color/colorListItemBottomSpan"
+                android:textSize="@dimen/listItemBottomSpanTextSize"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/listItemPriceView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/listItemProductNameMarginTop"
+                android:layout_marginLeft="@dimen/listItemProductNameMarginLeft"
+                android:layout_marginStart="@dimen/listItemProductNameMarginLeft"
+                android:padding="@dimen/listItemBottomSpanTextPadding"
+                android:gravity="center"
+                android:text="@string/price"
+                android:textColor="@color/colorTextDisabled"
+                android:background="@color/colorListItemBottomSpan"
+                android:textSize="@dimen/listItemBottomSpanTextSize"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/listItemSale"
+                android:layout_width="@dimen/buttonFixedWidth"
+                android:layout_height="@dimen/buttonFixedHeight"
+                android:layout_marginLeft="@dimen/buttonMarginLeft"
+                android:layout_marginStart="@dimen/buttonMarginLeft"
+                android:layout_marginRight="@dimen/listItemProductNameMarginLeft"
+                android:layout_marginEnd="@dimen/listItemProductNameMarginLeft"
+                android:layout_marginTop="@dimen/buttonMarginTop"
+                android:text="@string/sale"
+                android:onClick="saleProduct"
+                android:textColor="@color/colorTextSecondary"
+                android:background="@drawable/button_bg"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

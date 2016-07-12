@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@color/colorBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBg"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="@dimen/titleTextPaddingTopBottom"
+            android:paddingBottom="@dimen/titleTextPaddingTopBottom"
+            android:text="@string/addNewProduct"
+            android:textAlignment="center"
+            android:textSize="@dimen/titleTextSize"
+            android:textColor="@color/colorTitleText"
+            android:textStyle="bold"
+            android:background="@drawable/title_bg"
+            android:layout_gravity="center_horizontal" />
+        <!-- HEADER END -->
+
+        <!-- PAN -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/panMarginLeftRight"
+            android:layout_marginRight="@dimen/panMarginLeftRight"
+            android:layout_marginTop="@dimen/panMarginTop"
+            android:padding="@dimen/panPadding"
+            android:background="@color/colorPanBg"
+            android:orientation="vertical">
+
+            <!-- PRODUCT NAME ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/product"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:gravity="right"
+                    android:layout_weight="2"/>
+
+                <EditText
+                    android:id="@+id/addProductNameEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/editTextMarginLeft"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:background="@color/editTextBg"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <!-- PRODUCT NAME ROW END -->
+
+            <!-- PRODUCT QUANTITY ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/panRowMarginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quantity"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:gravity="right"
+                    android:layout_weight="2"/>
+
+                <EditText
+                    android:id="@+id/addProductQuantityEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/editTextMarginLeft"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:background="@color/editTextBg"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <!-- PRODUCT QUANTITY ROW END -->
+
+            <!-- PRODUCT QUANTITY ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/panRowMarginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:gravity="right"
+                    android:layout_weight="2"/>
+
+                <EditText
+                    android:id="@+id/addProductPriceEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/editTextMarginLeft"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:background="@color/editTextBg"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <!-- PRODUCT QUANTITY ROW END -->
+
+            <!-- PRODUCT QUANTITY ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/panRowMarginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supplier_mail"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:gravity="right"
+                    android:layout_weight="2"/>
+
+                <EditText
+                    android:id="@+id/addProductSupplierMailEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/editTextMarginLeft"
+                    android:textSize="@dimen/panTextSize"
+                    android:textColor="@color/colorTextSecondary"
+                    android:background="@color/editTextBg"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <!-- PRODUCT QUANTITY ROW END -->
+
+            <!-- BUTTONS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/panRowMarginTopBig"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/addProductButtonCancel"
+                    android:layout_width="@dimen/buttonFixedWidth"
+                    android:layout_height="@dimen/buttonFixedHeight"
+                    android:text="@string/cancel"
+                    android:onClick="openMainActivity"
+                    android:textColor="@color/colorTextSecondary"
+                    android:background="@drawable/button_bg"/>
+
+                <Button
+                    android:id="@+id/addProductButtonSave"
+                    android:layout_width="@dimen/buttonFixedWidth"
+                    android:layout_height="@dimen/buttonFixedHeight"
+                    android:layout_marginLeft="@dimen/buttonMarginLeft"
+                    android:text="@string/save"
+                    android:onClick="addProduct"
+                    android:textColor="@color/colorTextSecondary"
+                    android:background="@drawable/button_bg"/>
+                
+            </LinearLayout>
+            <!-- BUTTONS END -->
+
+        </LinearLayout>
+        <!-- PAN END -->
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- TITLES -->
+    <string name="app_name">InventoryApp</string>
+    <string name="listOfProducts">List of Products</string>
+    <string name="product">Product:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="price">Price:</string>
+    <string name="supplier_mail">Supplier Mail:</string>
+    <string name="addNewProduct">Add a new product</string>
+    <string name="details">Details</string>
+    <string name="updateQuantity">Update quantity here:</string>
+
+    <!-- BUTTONS -->
+    <string name="order">Order</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="sale">Sale</string>
+
+    <!-- ONLY MAIN ACTIVITY -->
+    <string name="noProducts">Sorry, no products found.\nTry to add one.</string>
+
+    <!-- ONLY DETAILS LAYOUT -->
+    <string name="detailsBadData">~Bad Data~</string>
+    <string name="detailsQuantityUpdateEdit">1</string>
+    <string name="detailsQuantityUpdateMinus">-</string>
+    <string name="detailsQuantityUpdatePlus">+</string>
+
+</resources>

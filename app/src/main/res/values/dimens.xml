@@ -1,0 +1,32 @@
+<resources>
+
+    <dimen name="noProductTextMarginTop">8dp</dimen>
+    <dimen name="noProductTextMarginBottom">8dp</dimen>
+    <dimen name="panMarginLeftRight">20dp</dimen>
+    <dimen name="panMarginTop">30dp</dimen>
+    <dimen name="panPadding">15dp</dimen>
+    <dimen name="panTextSize">18sp</dimen>
+    <dimen name="panRowMarginTop">7dp</dimen>
+    <dimen name="panRowMarginTopBig">25dp</dimen>
+    <dimen name="editTextMarginLeft">10dp</dimen>
+    <dimen name="buttonMarginLeft">10dp</dimen>
+    <dimen name="buttonMarginTop">4dp</dimen>
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="titleTextPaddingTopBottom">10dp</dimen>
+    <dimen name="buttonFixedWidth">100dp</dimen>
+    <dimen name="buttonFixedHeight">36dp</dimen>
+    <dimen name="buttonQuadHeight">36dp</dimen>
+    <dimen name="buttonQuadWidth">45dp</dimen>
+    <dimen name="editQuadHeight">36dp</dimen>
+    <dimen name="editQuadWidth">55dp</dimen>
+    <dimen name="normalTextSize">18sp</dimen>
+    <dimen name="listItemProductNameMarginTop">5dp</dimen>
+    <dimen name="listItemProductNameMarginLeft">9dp</dimen>
+    <dimen name="listItemBottomSpanTextSize">15sp</dimen>
+    <dimen name="listItemBottomSpanTextPadding">5dp</dimen>
+    <dimen name="listItemMargin">5dp</dimen>
+    <dimen name="listItemBottomSpanLayoutPadding">6dp</dimen>
+    <dimen name="plusButtonPadding">4dp</dimen>
+    <dimen name="plusButtonSideSize">45dp</dimen>
+
+</resources>

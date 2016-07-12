@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="@dimen/titleTextPaddingTopBottom"
+            android:paddingBottom="@dimen/titleTextPaddingTopBottom"
+            android:text="@string/listOfProducts"
+            android:gravity="center"
+            android:textSize="@dimen/titleTextSize"
+            android:textColor="@color/colorTitleText"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="@dimen/plusButtonSideSize"
+            android:layout_height="@dimen/plusButtonSideSize"
+            android:layout_margin="0dp"
+            android:padding="@dimen/plusButtonPadding"
+            android:id="@+id/imageButton"
+            android:src="@drawable/plus"
+            android:scaleType="fitCenter"
+            android:background="@drawable/title_bg"
+            android:layout_gravity="center"
+            android:onClick="openAddNewProduct"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/noProductTextMarginTop"
+            android:layout_marginBottom="@dimen/noProductTextMarginBottom"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:text="@string/noProducts"
+            android:id="@+id/noProductsFoundView"
+            android:textSize="@dimen/titleTextSize"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView
+            android:id="@+id/productsListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="@dimen/listItemMargin"
+            android:layout_marginStart="@dimen/listItemMargin"
+            android:layout_marginRight="@dimen/listItemMargin"
+            android:layout_marginEnd="@dimen/listItemMargin"
+            android:layout_marginBottom="@dimen/listItemMargin"
+            tools:listitem="@layout/listview_item"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/listItemMargin" />
+
+    </LinearLayout>
+
+</ScrollView>
